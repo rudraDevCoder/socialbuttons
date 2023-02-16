@@ -1,1 +1,47 @@
 /* Write your code here. */
+#root {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.btn-container-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn1,
+.btn2,
+.btn3 {
+  border-radius: 10px;
+  padding: 8px;
+  margin: 10px;
+  border-width: 0px;
+  color: white;
+}
+.btn1 {
+  background-color: #eab308;
+}
+.btn2 {
+  background-color: #ffffff;
+  color: black;
+}
+.btn3 {
+  background-color: #1d4ed8;
+}
+.social-buttons {
+  font-family: Bree-Serif;
+}
+@media (min-width: 768px) {
+  .btn-container-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
